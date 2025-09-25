@@ -1,0 +1,48 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+}
+.form-box {
+  width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #999;
+  background: #e6ffe6;
+  border-radius: 6px;
+}
+h2 {
+  text-align: center;
+  color: green;
+  margin-bottom: 15px;
+}
+.row {
+  margin: 10px 0;
+}
+label {
+  display: inline-block;
+  width: 160px;
+  vertical-align: top;
+}
+input,
+select {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+select[multiple] {
+  height: 80px;
+}
+.bt {
+  margin-top: 12px;
+  padding: 6px 14px;
+  background: #ddd;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+.success {
+  text-align: center;
+  margin-top: 12px;
+  color: red;
+  font-weight: bold;
+}

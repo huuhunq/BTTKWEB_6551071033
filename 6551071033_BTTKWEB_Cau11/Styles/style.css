@@ -1,0 +1,125 @@
+.container {
+    background-color: orange;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+.container ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.container li a{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    padding: 8px 20px;
+    display: block;
+    color: white;
+    text-align: left;
+    border-right: 1px solid white;
+}
+.container li a:hover{
+    color: blue;
+}
+.content{
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+.content h3{
+    text-align: center;
+    background-color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.content ul{
+    list-style: none;
+}
+.content li a{
+    text-align: left;
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 10px;
+    background-color: gray;
+    display: block;
+    border-bottom: 1px solid white;
+}
+.content li a:hover{
+    color: red;
+    background-color: #eee;
+}
+.footer {
+    background: linear-gradient(to bottom, #ffb74d, #f57c00);
+    padding: 0;
+    margin: 0;
+}
+.footer ul.footer1 {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+.footer ul.footer1 > li {
+  position: relative;
+}
+.footer ul.footer1 > li > a {
+  display: block;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-right: 1px solid white;
+  text-align: left;
+}
+.footer a:hover {
+  background-color: #e65100;
+}
+.footer2 {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #f57c00;
+  min-width: 220px;
+  z-index: 999;
+}
+.footer2 li {
+  position: relative;
+}
+.footer2 a {
+  padding: 10px 20px;
+  display: block;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  text-transform: none;
+}
+.footer1 li:hover > .footer2 {
+  display: block;
+}
+.footer3 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #ef6c00;
+  min-width: 200px;
+}
+.footer2 li:hover > .footer3 {
+  display: block;
+}
+.footer3 a {
+  padding: 10px 20px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  border-bottom: 1px solid white;
+}

@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+div {
+  text-align: center;
+}
+body {
+  width: 60%;
+  margin: auto;
+  border: 2px solid green;
+  padding: 20px;
+}

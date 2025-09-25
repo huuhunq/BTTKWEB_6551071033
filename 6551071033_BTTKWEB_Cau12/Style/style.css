@@ -1,0 +1,110 @@
+.menu_ngang{
+    background-color: orange;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ddd;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#anh1{
+    width: 200px;
+    height: 50px;
+}
+.menu_ngang li a{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 8px 20px;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-right: 2px solid;
+}
+#trangchu{
+    border-left: 2px solid;
+}
+.menu_ngang li a:hover{
+    color: #E5E5E5;
+}
+.container{
+    margin: 10px;
+    display: flex;
+}
+.menu_doc h3{
+    background-color: orange;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 15px;
+}
+.menu_doc{
+    width: 250px;
+    margin-right: 20px;
+}
+.menu_doc ul{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.menu_doc ul li{
+        font-weight: bold;
+        padding: 5px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        background-color: #E5E5E5;
+        text-align: left;
+} 
+.menu_doc a{
+    color: black;
+}
+.menu_doc select, button{
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+}
+.content{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.content h2{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.content img{
+    width: 300px;
+}
+.vanban{
+    flex: 1;
+}
+.vanban h2{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.spmoi img{
+    width: 140px;
+}
+.spmoi{
+    padding: 5px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.spmoi p{
+    margin-top: 5px;
+    
+}
+.content2 {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+

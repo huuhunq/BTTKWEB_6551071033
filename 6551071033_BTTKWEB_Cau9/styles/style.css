@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+    color:darkblue;
+}
+table{
+    border-collapse: collapse ;
+    background-color: bisque;
+    margin: auto;
+}
+td{
+    border: 2px solid;
+    color: darkblue;
+}
+.h-field{
+    color: brown;
+}
+#fs{
+    width: 50px;
+}
+fieldset{
+    border: 2px solid brown;
+    margin: 10px;
+    padding: 10px;
+}
+.bt{
+    text-align: center;
+}

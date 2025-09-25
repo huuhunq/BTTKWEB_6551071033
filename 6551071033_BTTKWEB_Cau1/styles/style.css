@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: green;
+}
+.h2-1{
+    color: blue;
+}
+.h2-2{
+    background-color: pink;
+    color: deeppink;
+    text-align: center;
+}
+.p1{
+    color: blue;
+    text-align: center;
+    padding: 8px;
+}
+.p2{
+    color: deeppink;
+    text-align: center;
+    padding: 8px;
+}
+.p3{
+    color: green;
+    text-align: center;
+    padding: 8px;
+}
+hr{
+   width: 200px;
+   border: 1px solid; 
+   margin: auto;
+}
+.p-all{
+    background-color: khaki;
+
+}
